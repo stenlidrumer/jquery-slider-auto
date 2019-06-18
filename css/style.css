@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+
+body, button {
+    font-family: 'Jacques Francois', serif;
+    background-image: url('../img/texture-seamless.jpg');
+    background-repeat: repeat;}
+
+/********** SLIDER **********/
+.slider {
+  max-width: 940px;
+  margin: 0px auto 30px auto;}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide:first-child {
+    display: block;}
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #009900;
+  cursor: pointer;}
